@@ -78,7 +78,7 @@ exports.initCmds = ['|/avatar 120']; // Other commands (avatar, blockchallenges,
 */
 
 exports.exceptions = {
-	// 'userid': true
+	 'Satoshou': true
 };
 
 /*
@@ -86,8 +86,9 @@ exports.exceptions = {
 * Example:
 *
 * exports.exceptions = {
-*	'ecuacion': true,
-*	'excepted': true
+*	'Satoshou': true,
+*	'Dash-Botz': true
+e
 * };
 *
 */
@@ -106,7 +107,7 @@ exports.globalPermissions = {
 * Commands configuration
 */
 
-exports.commandTokens = ['.']; //Array of valid command characters
+exports.commandTokens = ['-']; //Array of valid command characters
 
 exports.defaultPermission = '%';
 
@@ -124,11 +125,11 @@ exports.permissionExceptions = {
 	'games': '#'
 };
 
-exports.botguide = "https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot/blob/master/commands/README.md";
+exports.botguide = "https://github.com/Satoshouz/Dash-Botz/blob/master/commands/README.md";
 
 //When you pm the bot but don't use a command, it replies you this message. Example: "Hi, I'm a bot. Use .help to view a command guide"
 //The var #USER is replaced with the username that pms it
-exports.pmhelp = "Hi #USER! I am a robot, please PM another staff member if you need help. Command guide: https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot/blob/master/commands/README.md";
+exports.pmhelp = "Hi #USER! I am a robot that is useing the respitory of Satoshou. If you want the git for this bot do -git if you need help the pm a staf member";
 
 /*
 * Language configuration
@@ -264,15 +265,15 @@ exports.winmsg = ['GG', 'g_g'];
 exports.losemsg = ['gg', 'wp'];
 
 exports.battleMessages = {
-	/* Examples of battle messages:
+	
 	'crit': {
-		'self': ['lol that hax', 'stop haxing pls'],
-		'foe': ['sorry', 'wow sorry for that', 'get critted']
+		'self': ['lol lucky you', 'Stop Have some mercy'],
+		'foe': ['sorry', 'Haxing is the best policy', 'get rekt']
 	},
 	'miss': {
-		'self': ['wow hax', 'lol #poke you\'re blind']
+		'self': ['wow hax', 'Rip i hate this game lol']
 	}
-	*/
+	
 };
 
 exports.battleModules = {
@@ -396,8 +397,8 @@ exports.groupchats = {};
 exports.groupChatTryJoinInterval = 60 * 1000;
 
 /* Test example
-exports.groupchats['groupchat-ecuacion-test'] = {
-	toJoin: ['/join groupchat-ecuacion-test'],
+exports.groupchats['groupchat-Dash-Botz-test'] = {
+	toJoin: ['/join groupchat-Dash Botz-test'],
 	onJoin: ['Hi guys!'],
 	onLeave: []
 };
