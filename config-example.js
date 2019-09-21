@@ -78,7 +78,7 @@ exports.initCmds = ['|/avatar 120']; // Other commands (avatar, blockchallenges,
 */
 
 exports.exceptions = {
-	 'Siatama': true
+	 'Fercardo': true
 };
 
 /*
@@ -86,7 +86,7 @@ exports.exceptions = {
 * Example:
 *
 * exports.exceptions = {
-*	'Siatama': true,
+*	'Fercardo': true,
 *	'Dash-Botz': true
 e
 * };
@@ -125,11 +125,11 @@ exports.permissionExceptions = {
 	'games': '#'
 };
 
-exports.botguide = "https://github.com/Siatama/Dash-Botz/blob/master/commands/README.md";
+exports.botguide = "https://github.com/Fercardo/Dash-Botz/blob/master/commands/README.md";
 
 //When you pm the bot but don't use a command, it replies you this message. Example: "Hi, I'm a bot. Use .help to view a command guide"
 //The var #USER is replaced with the username that pms it
-exports.pmhelp = "Hi #USER! I am a robot that is useing the respitory of Siatama. If you want the git for this bot do -git if you need help the pm a staf member";
+exports.pmhelp = "Hi #USER! I am a robot that is using the respitory of Fercardo. If you want the git for this bot do -git if you need help the pm a staf member";
 
 /*
 * Language configuration
