@@ -44,9 +44,9 @@ exports.watchconfig = true;
 * Login Details
 */
 
-exports.nick = 'BotNameHere';
+exports.nick = 'PokeDreamz';
 
-exports.pass = 'BotPasswordHere';
+exports.pass = 'pokedreams';
 
 exports.autoReloginDelay = 60 * 1000;
 
@@ -135,7 +135,7 @@ exports.pmhelp = "Hi #USER! I am a robot that is using the respitory of Fercardo
 * Language configuration
 */
 
-exports.language = 'english';
+exports.language = 'spanish';
 
 /*
 * Configuration for console messages
